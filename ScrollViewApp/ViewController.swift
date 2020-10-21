@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var locationView: CustomView!
     @IBOutlet weak var requestView: CustomView!
     @IBOutlet weak var detailView: CustomView!
+    @IBOutlet weak var contentView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
         setContent(view: requestView, itemName: "申請", content: "訪問介護ステーション ナーシングみなみみなみ")
         setContent(view: detailView, itemName: "申請内容", content: "fadfjmelkf;jeklfmeklwmflekjfp'e\r\njmflkjekl;fjew'lkjf'ewjkl'rjelkje'kjfの書の世に出づるにいたりた\r\nるは、函館にある秦慶治氏、及び信濃にある神津猛氏のたまものなり。労作終る\r\nの日にあたりて、このものがたりを二人の恩人のまへにさゝぐ。'ewkj'kfejkfjekl'jfw'jfklejej'fejwl'fkje私はそのｙ人を常に先生\r\nとよんでいた。")
         
-        
+        contentView.frame.size.height = houseCallView.frame.size.height + locationView.frame.size.height + requestView.frame.size.height + detailView.frame.size.height
         // Do any additional setup after loading the view.
     }
     
