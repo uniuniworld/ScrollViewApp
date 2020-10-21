@@ -15,9 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var requestView: CustomView!
     @IBOutlet weak var detailView: CustomView!
     @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        label.isHidden = false
         
         setContent(view: houseCallView, itemName: "往診日時", content: "6/23 15:05")
         setContent(view: locationView, itemName: "往診場所", content: "老人ホーム\r\n460-3333\r\n名古屋市中区なんとか二丁目666-666なんとかホーム")

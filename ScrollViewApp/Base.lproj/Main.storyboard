@@ -109,6 +109,13 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="jFv-Zg-KaL"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="gWn-bG-doQ"/>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aA-9J-DaE">
+                                <rect key="frame" x="221" y="410" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -127,6 +134,7 @@
                         <outlet property="contentView" destination="wXj-La-13v" id="XIa-6h-Fsk"/>
                         <outlet property="detailView" destination="Mt7-1E-oDT" id="VRV-65-w6j"/>
                         <outlet property="houseCallView" destination="kaV-3K-FGT" id="vfc-df-Byd"/>
+                        <outlet property="label" destination="8aA-9J-DaE" id="p67-Zg-IZ8"/>
                         <outlet property="locationView" destination="IlS-mj-PrS" id="9QI-Dk-GAu"/>
                         <outlet property="requestView" destination="dyM-EC-Lv7" id="dJ8-C2-Iig"/>
                     </connections>
