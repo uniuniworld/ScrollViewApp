@@ -8,12 +8,10 @@
 
 import UIKit
 
-@IBDesignable class CustomView: UIView {
+class CustomView: UIView {
     
     @IBOutlet weak var itemLabel: UILabel!
     @IBOutlet weak var contentLabel: UILabel!
-    
-
     
     override init(frame: CGRect) {
         super.init(frame: frame)
