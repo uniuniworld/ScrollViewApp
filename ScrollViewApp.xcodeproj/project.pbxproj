@@ -15,6 +15,11 @@
 		3C3087F7253FB66800B8CC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3087F5253FB66800B8CC96 /* LaunchScreen.storyboard */; };
 		3C308801253FB7FE00B8CC96 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C308800253FB7FE00B8CC96 /* CustomView.swift */; };
 		3C308803253FB83B00B8CC96 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C308802253FB83B00B8CC96 /* CustomView.xib */; };
+		3C96B451254A47DC00B02032 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96B44F254A47DC00B02032 /* CustomCell.swift */; };
+		3C96B452254A47DC00B02032 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C96B450254A47DC00B02032 /* CustomCell.xib */; };
+		3C96B455254A47F000B02032 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96B454254A47F000B02032 /* NextViewController.swift */; };
+		3C96B45A254A50D300B02032 /* TitleCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96B458254A50D300B02032 /* TitleCustomCell.swift */; };
+		3C96B45B254A50D300B02032 /* TitleCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C96B459254A50D300B02032 /* TitleCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		3C3087F8253FB66800B8CC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C308800253FB7FE00B8CC96 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		3C308802253FB83B00B8CC96 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		3C96B44F254A47DC00B02032 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3C96B450254A47DC00B02032 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		3C96B454254A47F000B02032 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		3C96B458254A50D300B02032 /* TitleCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCustomCell.swift; sourceTree = "<group>"; };
+		3C96B459254A50D300B02032 /* TitleCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 		3C3087E9253FB66700B8CC96 /* ScrollViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				3C96B457254A508700B02032 /* CustomCell */,
 				3C3087FF253FB7C700B8CC96 /* View */,
 				3C3087EA253FB66700B8CC96 /* AppDelegate.swift */,
 				3C3087EC253FB66700B8CC96 /* SceneDelegate.swift */,
@@ -68,6 +79,7 @@
 				3C3087F3253FB66800B8CC96 /* Assets.xcassets */,
 				3C3087F5253FB66800B8CC96 /* LaunchScreen.storyboard */,
 				3C3087F8253FB66800B8CC96 /* Info.plist */,
+				3C96B454254A47F000B02032 /* NextViewController.swift */,
 			);
 			path = ScrollViewApp;
 			sourceTree = "<group>";
@@ -79,6 +91,17 @@
 				3C308802253FB83B00B8CC96 /* CustomView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3C96B457254A508700B02032 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C96B44F254A47DC00B02032 /* CustomCell.swift */,
+				3C96B450254A47DC00B02032 /* CustomCell.xib */,
+				3C96B458254A50D300B02032 /* TitleCustomCell.swift */,
+				3C96B459254A50D300B02032 /* TitleCustomCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +162,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C96B452254A47DC00B02032 /* CustomCell.xib in Resources */,
+				3C96B45B254A50D300B02032 /* TitleCustomCell.xib in Resources */,
 				3C3087F7253FB66800B8CC96 /* LaunchScreen.storyboard in Resources */,
 				3C308803253FB83B00B8CC96 /* CustomView.xib in Resources */,
 				3C3087F4253FB66800B8CC96 /* Assets.xcassets in Resources */,
@@ -154,7 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3087EF253FB66700B8CC96 /* ViewController.swift in Sources */,
+				3C96B455254A47F000B02032 /* NextViewController.swift in Sources */,
 				3C308801253FB7FE00B8CC96 /* CustomView.swift in Sources */,
+				3C96B451254A47DC00B02032 /* CustomCell.swift in Sources */,
+				3C96B45A254A50D300B02032 /* TitleCustomCell.swift in Sources */,
 				3C3087EB253FB66700B8CC96 /* AppDelegate.swift in Sources */,
 				3C3087ED253FB66700B8CC96 /* SceneDelegate.swift in Sources */,
 			);
