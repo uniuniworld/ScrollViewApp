@@ -30,6 +30,8 @@ class NextViewController: UIViewController {
         
         tableView.backgroundColor = .gray
         
+        tableView.separatorInset = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
+        
         registerCell(tableView: tableView, cellName: cellName)
         registerCell(tableView: tableView, cellName: titleCellName)
 //
@@ -71,20 +73,20 @@ extension NextViewController: UITableViewDataSource {
     }
     
     
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        count += 1
-        if count == 8 {
-            let view = UIView(frame: CGRect(x: 0, y: 0, width: 150, height: 10))
- 
-            
-            
-            view.backgroundColor = .blue
-            return view
-        }
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: 150, height: CGFloat.leastNormalMagnitude))
-        view.backgroundColor = .blue
-        return view
-    }
+//    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+//        count += 1
+//        if count == 8 {
+//            let view = UIView(frame: CGRect(x: 0, y: 0, width: 150, height: 10))
+// 
+//            
+//            
+//            view.backgroundColor = .blue
+//            return view
+//        }
+//        let view = UIView(frame: CGRect(x: 0, y: 0, width: 150, height: CGFloat.leastNormalMagnitude))
+//        view.backgroundColor = .blue
+//        return view
+//    }
     //
 //    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
 //        let view = UIView(frame: CGRect(x: 0, y: 0, width: 150, height: 10))
